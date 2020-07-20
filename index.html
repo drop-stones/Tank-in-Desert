@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>練習</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <script src="main.js"></script>
+  <script src="core/resource.js"></script>
+  <script src="core/input.js"></script>
+  <script src="core/key_manager.js"></script>
+  <script src="core/mouse_manager.js"></script>
+  <script src="src/GameoverScene.js"></script>
+  <script src="src/StageSelectScene.js"></script>
+  <script src="src/GameScene.js"></script>
+  <script src="src/TitleScene.js"></script>
+  <script src="src/Shell.js"></script>
+  <script src="src/Tank.js"></script>
+  <script src="src/Map.js"></script>
+  <script src="src/Operator.js"></script>
+  <script src="src/utility.js"></script>
+
+  <script>
+    // 上下キーを押したときに勝手にスクロールしないようにする設定
+    window.document.onkeydown = function(evt){
+      if (evt.which == 38 || evt.which == 40) {
+        evt.which = null
+        return false
+      }
+    }
+  </script>
+</head>
+<body onload="init()">
+  <canvas id="canvas" width="1280" height="960"></canvas>
+  <script>
+    const ctx = document.getElementById("canvas").getContext("2d")
+  </script>
+  <style>
+    #canvas {
+      width: 1280px;
+      height: 960px;
+    }
+  </style>
+
+</body>
+</html>
