@@ -10,8 +10,8 @@ drawRotatedImage("画像のキー",画像の中心を合わせるx,y,角度)で�
 ただし中心を合わせるように配置するので注意！
 
 # Contributions
-Kaki Shu: Tank class, collision detection and enemy AI
-Ryohei Oura: Game engine and branch administration
-Kaoru Miyanaga: Map class and collision detection
-Syoujiro Yamabe: Shell class and scene management
-Yuta Saito: Graphics
+* Kaki Shu: Tank class, collision detection and enemy AI
+* Ryohei Oura: Game engine and branch administration
+* Kaoru Miyanaga: Map class and collision detection
+* Syoujiro Yamabe: Shell class and scene management
+* Yuta Saito: Graphics
