@@ -15,3 +15,4 @@ drawRotatedImage("画像のキー",画像の中心を合わせるx,y,角度)で�
 * Kaoru Miyanaga: Map class and collision detection
 * Syoujiro Yamabe: Shell class and scene management
 * Yuta Saito: Graphics
+* Roy Mastang: mischief!!
